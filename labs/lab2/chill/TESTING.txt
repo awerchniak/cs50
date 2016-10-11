@@ -1,0 +1,94 @@
+TESTING for chill.c
+Andy Werchniak, July 2016
+
+### Test basic operation : no input arguments
+[awerchniak@flume ]$ ./chill
+Temp	Wind	Chill
+-----	-----	-----	
+-10	5	-22.3
+-10	10	-28.3
+-10	15	-32.2
+
+0	5	-10.5
+0	10	-15.9
+0	15	-19.4
+
+10	5	1.2
+10	10	-3.5
+10	15	-6.6
+
+20	5	13.0
+20	10	8.9
+20	15	6.2
+
+30	5	24.7
+30	10	21.2
+30	15	19.0
+
+40	5	36.5
+40	10	33.6
+40	15	31.8
+
+### Test basic operation : One input argument (temperature) within bounds
+[awerchniak@flume ]$ ./chill 32
+Temp	Wind	Chill
+-----	-----	-----	
+32	5	27.1
+32	10	23.7
+32	15	21.6
+
+### Test basic operation : One floating point argument within bounds
+[awerchniak@flume ]$ ./chill 25.7
+Temp	Wind	Chill
+-----	-----	-----	
+26	5	19.7
+26	10	15.9
+26	15	13.5
+
+### Test basic operation: Two arguments, both within bounds
+[awerchniak@flume ]$ ./chill 5 15
+Temp	Wind	Chill
+-----	-----	-----	
+5	15	-13.0
+
+### Test basic operation: Two floating point arguments within bounds
+[awerchniak@flume ]$ ./chill 25.7 0.6
+Temp	Wind	Chill
+-----	-----	-----	
+26	1	28.9
+
+### Test edge case : One argument, temperature out of bounds
+[awerchniak@flume ]$ ./chill 55
+Please enter a Temperature value less than 50 degrees.
+
+### Test edge case : Two arguments, wind chill out of bounds
+[awerchniak@flume ]$ ./chill 10 0
+Please enter a Velocity greater than or equal to 0.5mph and a velocity less than 50 degrees.
+
+### Test edge case : Two arguments, temperature out of bounds
+[awerchniak@flume ]$ ./chill 55 5
+Please enter a Velocity greater than or equal to 0.5mph and a velocity less than 50 degrees.
+
+### Test edge case : Two arguments, both out of bounds
+[awerchniak@flume ]$ ./chill 55 0
+Please enter a Velocity greater than or equal to 0.5mph and a velocity less than 50 degrees.
+
+### Test edge case : more than two arguments
+[awerchniak@flume ]$ ./chill 40 5 10
+Error! Please input 0, 1, or 2 arguments 
+
+### Test edge case : non-numerical inputs
+[awerchniak@flume ]$ ./chill c
+Temp	Wind	Chill
+-----	-----	-----	
+0	5	-10.5
+0	10	-15.9
+0	15	-19.4
+[awerchniak@flume ]$ ./chill c 5
+Temp	Wind	Chill
+-----	-----	-----	
+0	5	-10.5
+[awerchniak@flume ]$ ./chill c a
+Please enter a Velocity greater than or equal to 0.5mph and a velocity less than 50 degrees.
+
+

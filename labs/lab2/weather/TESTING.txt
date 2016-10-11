@@ -1,0 +1,81 @@
+TESTING for weather.c
+Andy Werchniak, July 2016
+
+### Test basic functionality
+[awerchniak@flume ]$ ./weather KMWN
+credit: NOAA's National Weather Service
+location: Mount Washington, NH
+station_id: KMWN
+observation_time: Last Updated on Jul 14 2016, 4:52 pm EDT
+weather: Fog and Windy
+temperature_string: 57.0 F (14.0 C)
+relative_humidity: 100
+wind_string: from the South at 34.5 gusting to 44.9 MPH (30 gusting to 39 KT)
+visibility_mi: 0.00
+
+### Test edge case: invalid station code
+[awerchniak@flume ]$ ./weather KWMN
+That station code <KWMN> could not be found
+
+### Test edge case: station code with too many characters
+[awerchniak@flume ]$ ./weather KMWNN
+Location code must be 4 characters.
+
+### Test edge case: too many arguments
+[awerchniak@flume ]$ ./weather KMWN KRCZ
+./weatherweather needs one arg, a location code like KMWN.  To look up location codes, see http://w1.weather.gov/xml/current_obs/seek.php?state=
+
+### Test memory leaks. Note: curl_easy_cleanup() is horrendous. Attempted to fix the problem...
+[awerchniak@flume ]$ leakVal ./weather KMWN
+==27615== Memcheck, a memory error detector
+==27615== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==27615== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==27615== Command: ./weather KMWN
+==27615== 
+credit: NOAA's National Weather Service
+location: Mount Washington, NH
+station_id: KMWN
+observation_time: Last Updated on Jul 14 2016, 8:53 pm EDT
+weather: Fog and Windy
+temperature_string: 55.0 F (13.0 C)
+relative_humidity: 100
+wind_string: from the West at 46.0 gusting to 49.5 MPH (40 gusting to 43 KT)
+visibility_mi: 0.00
+==27615== 
+==27615== HEAP SUMMARY:
+==27615==     in use at exit: 64 bytes in 2 blocks
+==27615==   total heap usage: 4,546 allocs, 4,544 frees, 300,207 bytes allocated
+==27615== 
+==27615== 32 bytes in 1 blocks are still reachable in loss record 1 of 2
+==27615==    at 0x4C28BF6: malloc (vg_replace_malloc.c:299)
+==27615==    by 0x5BA5097: CRYPTO_malloc (in /usr/lib64/libcrypto.so.1.0.2h)
+==27615==    by 0x5C5A4CE: sk_new (in /usr/lib64/libcrypto.so.1.0.2h)
+==27615==    by 0x590EDA9: ??? (in /usr/lib64/libssl.so.1.0.2h)
+==27615==    by 0x5911238: SSL_COMP_get_compression_methods (in /usr/lib64/libssl.so.1.0.2h)
+==27615==    by 0x5917448: SSL_library_init (in /usr/lib64/libssl.so.1.0.2h)
+==27615==    by 0x4E87CF5: Curl_ossl_init (in /usr/lib64/libcurl.so.4.4.0)
+==27615==    by 0x4E62CA4: global_init (in /usr/lib64/libcurl.so.4.4.0)
+==27615==    by 0x4E62EA7: curl_easy_init (in /usr/lib64/libcurl.so.4.4.0)
+==27615==    by 0x400CA4: main (weather.c:55)
+==27615== 
+==27615== 32 bytes in 1 blocks are still reachable in loss record 2 of 2
+==27615==    at 0x4C28BF6: malloc (vg_replace_malloc.c:299)
+==27615==    by 0x5BA5097: CRYPTO_malloc (in /usr/lib64/libcrypto.so.1.0.2h)
+==27615==    by 0x5C5A4EC: sk_new (in /usr/lib64/libcrypto.so.1.0.2h)
+==27615==    by 0x590EDA9: ??? (in /usr/lib64/libssl.so.1.0.2h)
+==27615==    by 0x5911238: SSL_COMP_get_compression_methods (in /usr/lib64/libssl.so.1.0.2h)
+==27615==    by 0x5917448: SSL_library_init (in /usr/lib64/libssl.so.1.0.2h)
+==27615==    by 0x4E87CF5: Curl_ossl_init (in /usr/lib64/libcurl.so.4.4.0)
+==27615==    by 0x4E62CA4: global_init (in /usr/lib64/libcurl.so.4.4.0)
+==27615==    by 0x4E62EA7: curl_easy_init (in /usr/lib64/libcurl.so.4.4.0)
+==27615==    by 0x400CA4: main (weather.c:55)
+==27615== 
+==27615== LEAK SUMMARY:
+==27615==    definitely lost: 0 bytes in 0 blocks
+==27615==    indirectly lost: 0 bytes in 0 blocks
+==27615==      possibly lost: 0 bytes in 0 blocks
+==27615==    still reachable: 64 bytes in 2 blocks
+==27615==         suppressed: 0 bytes in 0 blocks
+==27615== 
+==27615== For counts of detected and suppressed errors, rerun with: -v
+==27615== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

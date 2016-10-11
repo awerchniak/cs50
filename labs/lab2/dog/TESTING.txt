@@ -1,0 +1,722 @@
+TESTING for dog.c
+Andy Werchniak, July 2016
+
+NOTE: All stdin inputs use ctrl^D to exit
+
+### Test basic operation : no input arguments (standard in)
+
+[awerchniak@flume ]$ dog
+Reading from stdin
+Reading from stdin
+And then writing to stdout
+And then writing to stdout
+And it works!
+And it works!
+[awerchniak@flume ]$ 
+
+### Test basic operation : only '-' input (standard in)
+[awerchniak@flume ]$ dog -
+Reading from stdin
+Reading from stdin
+And then writing to stdout
+And then writing to stdout
+And it works!
+And it works!
+[awerchniak@flume ]$ 
+
+### Test basic operation: Only -n as input (numbered stdin -> stdout)
+[awerchniak@flume ]$ dog -n
+Reading from stdin
+1. Reading from stdin
+Sending numbered repeats to stdout
+2. Sending numbered repeats to stdout
+And it works!
+3. And it works!
+[awerchniak@flume ]$ 
+
+### Test basic operation: -n - (numbered stdin -> stdout)
+[awerchniak@flume ]$ dog -n -
+Reading from stdin
+1. Reading from stdin
+Sending numbered repeats to stdout
+2. Sending numbered repeats to stdout
+And it works!
+3. And it works!
+[awerchniak@flume ]$ 
+
+### Test basic operation: -m mapfile.txt from stdin (send to test.txt so we can later decrypt)
+### Repeated contents of file for demonstration purposes
+[awerchniak@flume ]$ dog -m mapfile.txt > test.txt
+Here is a line to encrypt
+Here is another
+LeT's ThRoW SOM3 CapS & Cray-ZEE STu~~ff In
+[awerchniak@flume ]$ dog test.txt
+Sviv rh z ormv gl vmxibkg
+Sviv rh zmlgsvi
+OvG'h GsIlD HLN3 XzkH & Xizb-AVV HGf~~uu Rm
+
+###Test basic operation: -m mapfile.txt - (encrypt from stdin to stdout from mapfile)
+[awerchniak@flume ]$ dog -m mapfile.txt -
+Here is one line to encrypt
+Sviv rh lmv ormv gl vmxibkg
+Here is another
+Sviv rh zmlgsvi
+LeT's ThRoW SOM3 CapS & Cray-ZEE STu~~ff In
+OvG'h GsIlD HLN3 XzkH & Xizb-AVV HGf~~uu Rm
+
+### Test basic operation: -M mapfile.txt test.txt decrypt the above test.txt
+[awerchniak@flume ]$ dog -M mapfile.txt test.txt
+Here is a line to encrypt
+Here is another
+LeT's ThRoW SOM3 CapS & Cray-ZEE STu~~ff In
+
+### Test basic operation: -M mapfile.txt - (decrypt from stdin using mapfile.txt)
+[awerchniak@flume ]$ dog -M mapfile.txt -
+Sviv rh z ormv gl vmxibkg
+Here is a line to encrypt
+Sviv rh zmlgsvi
+Here is another
+OvG'h GsIlD HLN3 XzkH & Xizb-AVV HGf~~uu Rm
+LeT's ThRoW SOM3 CapS & Cray-ZEE STu~~ff In
+
+### Test basic operation: same as cat!
+[awerchniak@flume ]$ dog test.txt
+lets
+throw
+some
+lines
+in
+for
+testing
+purposes
+
+### Test basic operation: -n test.txt : send numbered output from file
+[awerchniak@flume ]$ dog -n test.txt
+1. lets
+2. throw
+3. some
+4. lines
+5. in
+6. for
+7. testing
+8. purposes
+9. 
+
+### Test basic operation: -n -m mapfile.txt test.txt : send numbered, encrypted output from file
+[awerchniak@flume ]$ dog -n -m mapfile.txt test.txt
+1. ovgh
+2. gsild
+3. hlnv
+4. ormvh
+5. rm
+6. uli
+7. gvhgrmt
+8. kfiklhvh
+9. 
+
+### Test basic operation: -n -M mapfile.txt test.txt : send numbered, decrypted output from file
+[awerchniak@flume ]$ dog -m mapfile.txt test.txt > test2.txt
+[awerchniak@flume ]$ dog -n -M mapfile.txt test2.txt
+1. lets
+2. throw
+3. some
+4. lines
+5. in
+6. for
+7. testing
+8. purposes
+9. 
+
+### Test basic operation: --help
+[awerchniak@flume ]$ dog --help
+Usage: dog [OPTION]... [FILE]...
+Like cat, but slightly different!
+
+With no FILE, or when FILE is -, read standard input.
+
+	-n			number lines on output
+	-m			weakly encrypt file using specified mapfile
+				cannot be used in conjuction with -M
+	-M			weakly decrypt file using specified mapfile
+				cannot be used in conjuction with -m
+      --help     display this help and exit
+
+Examples:
+dog -m mapfile.txt encrypt standard output using map in mapfile.txt
+dog -M mapfile.txt encryption.txt decrypt 'encryption.txt' using mapfile.txt
+dog -n repeat stdin with numbered lines
+dog -n -m mapfile.txt text.txt number lines, encrypt 'test.txt'
+dog	copy stdin to stdout
+
+Information on valid mapfiles available in README.txt
+
+### Test basic operation: multiple files, stdin in between
+[awerchniak@flume ]$ dog test.txt - test2.txt
+lets
+throw
+some
+lines
+in
+for
+testing
+purposes
+
+this is coming from stdin 
+this is coming from stdin
+can keep going until ctrlD
+can keep going until ctrlD
+woooooo
+woooooo
+ovgh
+gsild
+hlnv
+ormvh
+rm
+uli
+gvhgrmt
+kfiklhvh
+
+### Test basic operation: multiple files
+[awerchniak@flume ]$ dog README.txt test.txt mapfile.txt
+README for dog.c
+Andy Werchniak, July 2016
+
+Compiling:
+	mygcc -o dog dog.c
+
+Usage:
+/* 
+ * dog.c - like cat but with different functionality
+ * 
+ * usage: echo contents of a file
+ * where:
+ *   target is a filename to read the contents of to stdout
+ * output:
+ *   contents of the file, with specified formatting options
+ * stdin: the input template
+ * stdout: the modified template
+ * stderr: error messages
+ *
+ * My Name, July 2016
+ */
+
+Example command lines:
+
+  dog -n testFile.txt - otherTestFile.txt
+  dog -m mapfile.txt
+
+Exit status:
+  0 - success
+  1 - incorrect number of arguments
+  2 - bad target string
+  3 - cannot open replacement file
+  4 - error during input
+
+Assumptions:
+- Mapfile (for use in -m operation) must be formatted as follows:
+	Exactly 26 lines with no more than 9 characters per line
+	No characters aside from letters, ' ', and '\n'
+	Only the first two letters per line will be considered for mapping
+- User must specify all tags BEFORE listing any file names for dog
+- User may not specify the '--help' switch in addition to other switches
+	(--help will override)
+
+"Non"-Assumptions:
+- User may specify any number of arguments
+- The stdin '-' instruction may appear anywhere in the file sequence
+
+Limitations:
+- Does not contain full functionality of cat: only supports --help, -n, -m, and -Mlets
+throw
+some
+lines
+in
+for
+testing
+purposes
+
+a z
+B Y
+c x
+D W
+e v
+F U
+g t
+H S
+i r
+J Q
+k p
+L O
+m n
+N M
+o l
+P K
+q j
+R I
+s h
+T G
+u f
+V E
+w d
+X C
+y b
+Z A
+
+### Test basic operation: numbered multiple files
+[awerchniak@flume dog -n README.txt test.txt mapfile.txt
+1. README for dog.c
+2. Andy Werchniak, July 2016
+3. 
+Compiling:
+4. 	mygcc -o dog dog.c
+5. 
+Usage:
+6. /* 
+7.  * dog.c - like cat but with different functionality
+8.  * 
+9.  * usage: echo contents of a file
+10.  * where:
+11.  *   target is a filename to read the contents of to stdout
+12.  * output:
+13.  *   contents of the file, with specified formatting options
+14.  * stdin: the input template
+15.  * stdout: the modified template
+16.  * stderr: error messages
+17.  *
+18.  * My Name, July 2016
+19.  */
+20. 
+Example command lines:
+21. 
+  dog -n testFile.txt - otherTestFile.txt
+22.   dog -m mapfile.txt
+23. 
+Exit status:
+24.   0 - success
+25.   1 - incorrect number of arguments
+26.   2 - bad target string
+27.   3 - cannot open replacement file
+28.   4 - error during input
+29. 
+Assumptions:
+30. - Mapfile (for use in -m operation) must be formatted as follows:
+31. 	Exactly 26 lines with no more than 9 characters per line
+32. 	No characters aside from letters, ' ', and '\n'
+33. 	Only the first two letters per line will be considered for mapping
+34. - User must specify all tags BEFORE listing any file names for dog
+35. - User may not specify the '--help' switch in addition to other switches
+36. 	(--help will override)
+37. 
+"Non"-Assumptions:
+38. - User may specify any number of arguments
+39. - The stdin '-' instruction may appear anywhere in the file sequence
+40. 
+Limitations:
+41. - Does not contain full functionality of cat: only supports --help, -n, -m, and -M
+42. lets
+43. throw
+44. some
+45. lines
+46. in
+47. for
+48. testing
+49. purposes
+50. 
+
+51. a z
+52. B Y
+53. c x
+54. D W
+55. e v
+56. F U
+57. g t
+58. H S
+59. i r
+60. J Q
+61. k p
+62. L O
+63. m n
+64. N M
+65. o l
+66. P K
+67. q j
+68. R I
+69. s h
+70. T G
+71. u f
+72. V E
+73. w d
+74. X C
+75. y b
+76. Z A
+
+### Test basic operation: numbered encrypted multiple files
+[awerchniak@flume ]$ dog -n -m mapfile.txt README.txt test.txt mapfile.txt
+1. IVZWNV uli wlt.x
+2. Zmwb Dvixsmrzp, Qfob 2016
+3. 
+Xlnkrormt:
+4. 	nbtxx -l wlt wlt.x
+5. 
+Fhztv:
+6. /* 
+7.  * wlt.x - orpv xzg yfg drgs wruuvivmg ufmxgrlmzorgb
+8.  * 
+9.  * fhztv: vxsl xlmgvmgh lu z urov
+10.  * dsviv:
+11.  *   gzitvg rh z urovmznv gl ivzw gsv xlmgvmgh lu gl hgwlfg
+12.  * lfgkfg:
+13.  *   xlmgvmgh lu gsv urov, drgs hkvxrurvw ulinzggrmt lkgrlmh
+14.  * hgwrm: gsv rmkfg gvnkozgv
+15.  * hgwlfg: gsv nlwrurvw gvnkozgv
+16.  * hgwvii: viili nvhhztvh
+17.  *
+18.  * Nb Mznv, Qfob 2016
+19.  */
+20. 
+Vcznkov xlnnzmw ormvh:
+21. 
+  wlt -m gvhgUrov.gcg - lgsviGvhgUrov.gcg
+22.   wlt -n nzkurov.gcg
+23. 
+Vcrg hgzgfh:
+24.   0 - hfxxvhh
+25.   1 - rmxliivxg mfnyvi lu zitfnvmgh
+26.   2 - yzw gzitvg hgirmt
+27.   3 - xzmmlg lkvm ivkozxvnvmg urov
+28.   4 - viili wfirmt rmkfg
+29. 
+Zhhfnkgrlmh:
+30. - Nzkurov (uli fhv rm -n lkvizgrlm) nfhg yv ulinzggvw zh ulooldh:
+31. 	Vczxgob 26 ormvh drgs ml nliv gszm 9 xszizxgvih kvi ormv
+32. 	Ml xszizxgvih zhrwv uiln ovggvih, ' ', zmw '\m'
+33. 	Lmob gsv urihg gdl ovggvih kvi ormv droo yv xlmhrwvivw uli nzkkrmt
+34. - Fhvi nfhg hkvxrub zoo gzth YVULIV orhgrmt zmb urov mznvh uli wlt
+35. - Fhvi nzb mlg hkvxrub gsv '--svok' hdrgxs rm zwwrgrlm gl lgsvi hdrgxsvh
+36. 	(--svok droo leviirwv)
+37. 
+"Mlm"-Zhhfnkgrlmh:
+38. - Fhvi nzb hkvxrub zmb mfnyvi lu zitfnvmgh
+39. - Gsv hgwrm '-' rmhgifxgrlm nzb zkkvzi zmbdsviv rm gsv urov hvjfvmxv
+40. 
+Ornrgzgrlmh:
+41. - Wlvh mlg xlmgzrm ufoo ufmxgrlmzorgb lu xzg: lmob hfkkligh --svok, -m, -n, zmw -N
+42. ovgh
+43. gsild
+44. hlnv
+45. ormvh
+46. rm
+47. uli
+48. gvhgrmt
+49. kfiklhvh
+50. 
+
+51. z a
+52. Y B
+53. x c
+54. W D
+55. v e
+56. U F
+57. t g
+58. S H
+59. r i
+60. Q J
+61. p k
+62. O L
+63. n m
+64. M N
+65. l o
+66. K P
+67. j q
+68. I R
+69. h s
+70. G T
+71. f u
+72. E V
+73. d w
+74. C X
+75. b y
+76. A Z
+
+### Test basic operation: number, decrypt multiple files
+[awerchniak@flume ]$ dog -m mapfile.txt README.txt > test1.txt
+[awerchniak@flume ]$ dog -m mapfile.txt test.txt > test2.txt
+[awerchniak@flume ]$ dog -m mapfile.txt mapfile.txt > test3.txt
+[awerchniak@flume ]$ dog -n -M mapfile.txt test1.txt test2.txt test3.txt
+1. README for dog.c
+2. Andy Werchniak, July 2016
+3. 
+Compiling:
+4. 	mygcc -o dog dog.c
+5. 
+Usage:
+6. /* 
+7.  * dog.c - like cat but with different functionality
+8.  * 
+9.  * usage: echo contents of a file
+10.  * where:
+11.  *   target is a filename to read the contents of to stdout
+12.  * output:
+13.  *   contents of the file, with specified formatting options
+14.  * stdin: the input template
+15.  * stdout: the modified template
+16.  * stderr: error messages
+17.  *
+18.  * My Name, July 2016
+19.  */
+20. 
+Example command lines:
+21. 
+  dog -n testFile.txt - otherTestFile.txt
+22.   dog -m mapfile.txt
+23. 
+Exit status:
+24.   0 - success
+25.   1 - incorrect number of arguments
+26.   2 - bad target string
+27.   3 - cannot open replacement file
+28.   4 - error during input
+29. 
+Assumptions:
+30. - Mapfile (for use in -m operation) must be formatted as follows:
+31. 	Exactly 26 lines with no more than 9 characters per line
+32. 	No characters aside from letters, ' ', and '\n'
+33. 	Only the first two letters per line will be considered for mapping
+34. - User must specify all tags BEFORE listing any file names for dog
+35. - User may not specify the '--help' switch in addition to other switches
+36. 	(--help will override)
+37. 
+"Non"-Assumptions:
+38. - User may specify any number of arguments
+39. - The stdin '-' instruction may appear anywhere in the file sequence
+40. 
+Limitations:
+41. - Does not contain full functionality of cat: only supports --help, -n, -m, and -M
+42. lets
+43. throw
+44. some
+45. lines
+46. in
+47. for
+48. testing
+49. purposes
+50. 
+
+51. a z
+52. B Y
+53. c x
+54. D W
+55. e v
+56. F U
+57. g t
+58. H S
+59. i r
+60. J Q
+61. k p
+62. L O
+63. m n
+64. N M
+65. o l
+66. P K
+67. q j
+68. R I
+69. s h
+70. T G
+71. u f
+72. V E
+73. w d
+74. X C
+75. y b
+76. Z A
+
+### Test edge case: -m and -M both specified
+[awerchniak@flume ]$ dog -m mapfile.txt -M mapfile.txt test.txt
+Error! Please enter only -m or -M, but not both.
+
+### Test edge case: nonexistant file
+[awerchniak@flume ]$ dog nonExistantFile.txt
+dog: nonExistantFile.txt: No such file or directory
+
+[awerchniak@flume ]$ dog -n nonExistantFile.txt
+dog: nonExistantFile.txt: No such file or directory
+
+### Test edge case: non existant mapfile
+[awerchniak@flume ]$ dog -m nonExistantMapFile.txt
+Error! The mapfile nonExistantMapFile.txt could not be opened.
+
+### Test edge case: mapfile with too few lines (using valgrind)
+[awerchniak@flume ]$ dog invalidMap1.txt
+a b
+c d
+e f
+g h
+
+[awerchniak@flume ]$ leakVal ./dog -m invalidMap1.txt
+==18556== Memcheck, a memory error detector
+==18556== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==18556== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==18556== Command: ./dog -m invalidMap1.txt
+==18556== 
+Hello
+Hfllo
+We will only replace a few specified characters
+Wf will only rfplbdf b ffw spfdififd dhbrbdtfrs
+The rest will be left as is
+Thf rfst will bf lfft bs is
+==18556== 
+==18556== HEAP SUMMARY:
+==18556==     in use at exit: 0 bytes in 0 blocks
+==18556==   total heap usage: 1 allocs, 1 frees, 552 bytes allocated
+==18556== 
+==18556== All heap blocks were freed -- no leaks are possible
+==18556== 
+==18556== For counts of detected and suppressed errors, rerun with: -v
+==18556== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+### Test edge case: mapfile with invalid characters
+[awerchniak@flume ]$ dog invalidMap2.txt
+a b
+c d
+e f
+g ~
+
+[awerchniak@flume ]$ dog -m invalidMap2.txt README.txt
+Error! Invalid mapfile : invalid character '~.' See documentation.
+
+### Test edge case : mapfile with too many lines
+[awerchniak@flume ]$ dog invalidMap3.txt
+a b
+c d
+e f
+g h
+i j
+k l
+m n
+o p
+q r
+s t
+u v
+w x
+y z
+z y
+x w
+v u
+t s
+r q
+p o
+n m
+l k
+j i
+h g
+g e
+d c
+b a
+
+
+
+[awerchniak@flume ]$ dog -m invalidMap3.txt
+Error! Invalid mapfile : invalid length 28. See documentation.
+
+### Test edge case: mapfile with repeated character mappings
+[awerchniak@flume ]$ dog invalidMap4.txt
+a b
+c d
+e f
+g h
+i j
+k l
+m n
+o p
+q r
+s t
+u v
+w x
+y z
+z y
+x w
+v u
+t s
+r q
+p o
+n m
+l k
+d c
+b a
+a c
+r z
+[awerchniak@flume ]$ dog -m invalidMap4.txt
+Error! Invalid mapfile : repeated characters. See documentation.
+
+### Test edge case: -m treated as a filename (invalid ofcourse)
+[awerchniak@flume ]$ dog -n README.txt -m
+1. README for dog.c
+2. Andy Werchniak, July 2016
+3. 
+Compiling:
+4. 	mygcc -o dog dog.c
+5. 
+Usage:
+6. /* 
+7.  * dog.c - like cat but with different functionality
+8.  * 
+9.  * usage: echo contents of a file
+10.  * where:
+11.  *   target is a filename to read the contents of to stdout
+12.  * output:
+13.  *   contents of the file, with specified formatting options
+14.  * stdin: the input template
+15.  * stdout: the modified template
+16.  * stderr: error messages
+17.  *
+18.  * My Name, July 2016
+19.  */
+20. 
+Example command lines:
+21. 
+  dog -n testFile.txt - otherTestFile.txt
+22.   dog -m mapfile.txt
+23. 
+Exit status:
+24.   0 - success
+25.   1 - incorrect number of arguments
+26.   2 - bad target string
+27.   3 - cannot open replacement file
+28.   4 - error during input
+29. 
+Assumptions:
+30. - Mapfile (for use in -m operation) must be formatted as follows:
+31. 	No more than 26 lines with no more than 9 characters per line
+32. 	No characters aside from letters, ' ', and '\n'
+33. 	Only the first two letters per line will be considered for mapping
+34. - Encryption maintains case. For example, if a is mapped to Z in the mapfile,
+35. 	dog will simply map a to z and maintain the case of the input character.
+36. 	The same is true for decryption
+37. - User must specify all tags BEFORE listing any file names for dog
+38. - User may not specify the '--help' switch in addition to other switches
+39. 	(--help will override)
+40. 
+"Non"-Assumptions:
+41. - User may specify any number of arguments
+42. - The stdin '-' instruction may appear anywhere in the file sequence
+43. 
+Limitations:
+44. - Does not contain full functionality of cat: only supports --help, -n, -m, and -M
+dog: -m: No such file or directory
+
+### Test edge cases : tags specified in various invalid locations
+dog: -m: No such file or directory
+[awerchniak@flume ]$ dog -n -m
+dog: -m: No such file or directory
+[awerchniak@flume ]$ dog -m -n
+dog: -n: No such file or directory
+[awerchniak@flume ]$ dog -M -n
+dog: -n: No such file or directory
+[awerchniak@flume ]$ dog -n -M
+dog: (-M): No such file or directory
+[awerchniak@flume ]$ dog -n README.txt -M
+dog: (-M): No such file or directory
+
+### Test edge case : -n coming after -m
+[awerchniak@flume ]$ dog -m mapfile.txt -n
+hello
+1. svool

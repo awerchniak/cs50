@@ -1,0 +1,6 @@
+1. ls -1S | head					
+2. ls -1 *.jpg | wc -l
+3. convert winters-arrival_23896961770_o.1000.jpg -thumbnail 100x100 test.gif
+4. cat header.txt | sed s+\\n+\ +g > test.sh
+5. exif -m -t 0x10e winters-arrival_23896961770_o.1000.jpg
+6. for i in *.jpg; do j=$(ls $i | sed -e s+\.jpg++g); convert $i $j.png; done

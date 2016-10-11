@@ -1,0 +1,2057 @@
+ccurcelli, 42989, 28/08/2016 17:08:42
+Avatar #0 sent AM_AVATAR_READY signal
+Avatar #1 sent AM_AVATAR_READY signal
+Avatar #2 sent AM_AVATAR_READY signal
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (21, 6)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (13, 10)	 	Move attempted: North
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (21, 6)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (13, 10)	 	Move attempted: East
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 6)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (13, 10)	 	Move attempted: South
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 6)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (13, 10)	 	Move attempted: West
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 6)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 10)	 	Move attempted: South
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 7)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 10)	 	Move attempted: West
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 7)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 10)	 	Move attempted: North
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 8)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 9)	 	Move attempted: West
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 8)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 9)	 	Move attempted: North
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 8)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 8)	 	Move attempted: West
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 8)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (11, 8)	 	Move attempted: South
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 7)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (11, 8)	 	Move attempted: West
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (21, 7)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (10, 8)	 	Move attempted: South
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (21, 8)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (10, 8)	 	Move attempted: West
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (21, 8)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (10, 8)	 	Move attempted: North
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (21, 8)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (10, 7)	 	Move attempted: West
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (20, 8)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (10, 7)	 	Move attempted: North
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (20, 9)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (10, 7)	 	Move attempted: East
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (21, 9)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (11, 7)	 	Move attempted: North
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (21, 9)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (11, 6)	 	Move attempted: West
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 9)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (11, 6)	 	Move attempted: North
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 9)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (11, 6)	 	Move attempted: East
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 9)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (11, 6)	 	Move attempted: South
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 10)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (11, 7)	 	Move attempted: East
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 10)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 7)	 	Move attempted: North
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 10)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 7)	 	Move attempted: East
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 10)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 7)	 	Move attempted: South
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 10)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 7)	 	Move attempted: West
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 10)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (11, 7)	 	Move attempted: South
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 10)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (11, 7)	 	Move attempted: West
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 10)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (10, 7)	 	Move attempted: South
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 10)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (10, 8)	 	Move attempted: East
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 10)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (11, 8)	 	Move attempted: North
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 11)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (11, 8)	 	Move attempted: East
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 11)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 8)	 	Move attempted: North
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 11)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 8)	 	Move attempted: East
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 11)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 8)	 	Move attempted: South
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 12)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 9)	 	Move attempted: East
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 12)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (13, 9)	 	Move attempted: North
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 12)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (13, 8)	 	Move attempted: West
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 12)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (13, 8)	 	Move attempted: North
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 13)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (13, 7)	 	Move attempted: West
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 13)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (13, 7)	 	Move attempted: North
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 14)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (13, 6)	 	Move attempted: West
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 14)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 6)	 	Move attempted: South
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 14)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 6)	 	Move attempted: West
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 14)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 6)	 	Move attempted: North
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 14)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 5)	 	Move attempted: West
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 14)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 5)	 	Move attempted: North
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 14)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 4)	 	Move attempted: West
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 14)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 4)	 	Move attempted: North
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 14)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 3)	 	Move attempted: West
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 14)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 3)	 	Move attempted: North
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 14)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 3)	 	Move attempted: East
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 14)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (13, 3)	 	Move attempted: North
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 13)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (13, 2)	 	Move attempted: West
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 13)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 13)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 13)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 13)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (21, 13)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (21, 14)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (21, 14)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (21, 15)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 15)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 15)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 15)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 15)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 15)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 15)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 15)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 16)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 16)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 17)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 17)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 17)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 17)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 16)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 16)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 16)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 16)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 15)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 15)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 15)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 15)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 14)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 14)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 14)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 14)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 13)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 13)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 13)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 13)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 12)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 12)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 11)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 11)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 10)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 10)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 9)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 9)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 8)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 8)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 8)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 8)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 9)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 9)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 8)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 8)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 7)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 7)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 7)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 7)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 6)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 6)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 6)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 6)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 5)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 5)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 4)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 4)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 5)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 5)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 5)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 5)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 4)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 4)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 4)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 4)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 4)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 4)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 4)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 4)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 4)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 4)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 4)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 4)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 5)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 5)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 5)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 5)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 4)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 4)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 5)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 5)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 6)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 6)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 6)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 6)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 7)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 7)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 7)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 7)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 8)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 8)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 8)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 8)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 9)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 9)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 10)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (29, 10)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (29, 9)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (29, 9)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (29, 8)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (29, 8)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (29, 7)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (29, 7)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (29, 6)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (29, 6)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (29, 5)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (29, 5)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (29, 4)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (29, 4)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (29, 3)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 3)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 3)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 3)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 3)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 3)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 3)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 3)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 2)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 2)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 2)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 2)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 1)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 1)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 1)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 1)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 1)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 1)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 1)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 1)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 2)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 2)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 2)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (29, 2)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (29, 1)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (29, 1)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (29, 0)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 0)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (28, 0)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 0)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (27, 0)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 0)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 1)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 1)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 1)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 1)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 1)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 1)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 0)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 0)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 1)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 1)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 2)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 2)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 2)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 2)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 3)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 3)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 3)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 3)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 4)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 4)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 5)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 5)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 5)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 5)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 6)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 6)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 6)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 6)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 7)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 7)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (26, 7)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 7)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 8)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 8)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 9)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 9)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (25, 9)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 9)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 9)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 9)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 9)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 9)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 8)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 8)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 8)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 8)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (24, 7)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 7)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 7)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 7)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 6)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 6)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 5)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 5)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 4)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 4)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 3)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 3)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (23, 2)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 2)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 3)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 3)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 3)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (21, 3)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (21, 3)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (20, 3)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (20, 4)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (21, 4)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (21, 4)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 4)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 4)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 4)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 5)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 5)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (22, 5)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (21, 5)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (21, 5)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (20, 5)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (20, 6)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (20, 6)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (20, 6)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (19, 6)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (19, 7)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (19, 7)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (19, 7)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (18, 7)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (18, 7)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (18, 7)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (18, 6)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (17, 6)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (17, 6)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (17, 6)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (17, 5)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (17, 5)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (17, 5)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (17, 5)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (17, 6)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (18, 6)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (18, 5)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (18, 5)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (18, 5)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (19, 5)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (19, 4)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (18, 4)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (18, 4)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (17, 4)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (17, 4)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (17, 4)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (17, 3)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (17, 3)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (17, 2)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (17, 2)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (17, 1)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (16, 1)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (16, 2)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (16, 2)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (16, 2)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (15, 2)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (15, 2)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (14, 2)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (14, 2)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (14, 2)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (14, 2)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (15, 2)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (15, 1)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (14, 1)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (14, 1)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (13, 1)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (13, 1)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (13, 1)	 	Move attempted: North
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (13, 0)	 	Move attempted: West
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (12, 0)	 	Move attempted: South
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (12, 1)	 	Move attempted: East
+
+Avatar ID: 2 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 0 	Position: (12, 2)	 	Move attempted: Null move
+
+Avatar ID: 1 	Position: (12, 1)	 	Move attempted: South
+
+AM_MAZE_SOLVED message received!
+AvatarID: 1 End position: (12, 1)	 
+Number of avatars: 3
+ Level of difficulty: 5
+ Number of moves: 1015
+ Hash: -333483988
+
+AM_MAZE_SOLVED message received!
+
+AM_MAZE_SOLVED message received!
+AvatarID: 0 End position: (12, 2)	 
+Number of avatars: 3
+ Level of difficulty: 5
+ Number of moves: 1015
+ Hash: -333483988
+AvatarID: 2 End position: (12, 2)	 
+Number of avatars: 3
+ Level of difficulty: 5
+ Number of moves: 1015
+ Hash: -333483988
